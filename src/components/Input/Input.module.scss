@@ -1,0 +1,52 @@
+@import "../../constants";
+
+.wrap {
+  display: flex;
+  flex-direction:column;
+  font-weight: 400;
+  .input {
+    height: 46px;
+    border-radius: $border-radius;
+    border: 1px solid $color-input-border;
+    box-shadow: $box-shadow;
+    font-size: 18px;
+    color: $color-text;
+   
+    outline: none;
+    width: 100%;
+    &.borderError {
+      border: 1px solid $color-error;
+    }
+    &.large {
+      width: 100%;
+    }
+  }
+}
+
+.label {
+  font-family: $font-family-main;
+  font-size: 12px;
+  font-style: normal;
+  text-decoration: none;
+  text-align: left;
+  margin-bottom: 10px;
+  color: $color-text;
+  text-transform:capitalize;
+}
+
+.errorMessage{
+  font-family: $font-family-main;
+  color: $color-error;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+

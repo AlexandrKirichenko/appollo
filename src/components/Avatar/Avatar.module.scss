@@ -1,0 +1,38 @@
+@import "../../constants";
+
+.avatar {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  background: $color-avatar;
+  border: 1px solid $color-border-avatar;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 400;
+  font-family: $font-family-main;
+  color: $color-background;
+  margin: 8px 10px 9px 8px;
+}
+
+.text {
+  border: 1px solid $color-border-avatar;
+  align-items: center;
+  font-size: 14px;
+}
+
+.medium {
+  width: 38px;
+  height: 38px;
+  font-size: 14px;
+}
+
+.large {
+  width: 110px;
+  height: 110px;
+  border: 1px solid $color-border-avatar;
+  font-size: 36px;
+}
+
+
+

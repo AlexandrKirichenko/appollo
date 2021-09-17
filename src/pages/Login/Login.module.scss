@@ -1,0 +1,52 @@
+@import "../../constants";
+
+.wrap {
+  max-width: 1440px;
+
+  background: $color-background;
+  font-family: $font-family-main;
+  font-weight: 400;
+  min-height: 100vh;
+}
+
+.wrapperLogin {
+  max-width: 553px;
+  margin: 0 auto;
+}
+
+.buttonsWrapper {
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+}
+
+.a{
+  color: $color-input-border;
+  font-family: $font-family-main;
+  font-weight: 400;
+  font-size: 16px;
+  text-decoration:none;
+  text-align: left;
+  outline: none;
+  display: inline-block;
+}
+.header {
+  color: $color-text;
+  font-size: 36px;
+  font-family: $font-family-main;
+  color: $color-text;
+  font-weight: 400;
+  font-size: 36px;
+  font-style: normal;
+  text-decoration: none;
+  text-align: center;
+  padding-top: 126px;
+}
+
+.registration {
+  font-family: $font-family-main;
+  color: $color-text;
+  font-size: 16px;
+  font-style: normal;
+  text-decoration: none;
+}

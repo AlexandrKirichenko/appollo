@@ -1,0 +1,40 @@
+@import "../../constants";
+
+.button {
+  width: 136px;
+  height: 46px;
+  border-radius: $border-radius;
+  box-shadow: $box-shadow;
+  font-family: $font-family-main;
+  color: $color-background;
+  border: none;
+  outline: none;
+  font-weight: 400;
+  font-size: 18px;
+  font-style: normal;
+  text-decoration: none;
+  text-align: center;
+  margin: 10px 0;
+  cursor: pointer;
+  &.small {
+    width: 83px;
+  }
+  
+  &.primary {
+    background-color: $color-primary;
+    &:hover {
+      background-color: $color-primay-light;
+      transition: .3s ease-in-out;
+    }
+  }
+  &.secondary {
+    background: $color-secondary;
+    &:hover {
+      background-color: $color-secondary-light;
+      transition: .3s ease-in-out;
+    }
+  }
+  &.disableButton{
+    opacity: 0.4;
+  }
+}
